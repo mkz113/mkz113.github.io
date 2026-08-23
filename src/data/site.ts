@@ -8,6 +8,6 @@ export const siteMeta = {
     availability: 'Open to internships, junior opportunities, and serious technical collaboration.',
     email: 'ochisorantonie@gmail.com',
     github: 'https://github.com/mkz113',
-    linkedin: 'https://www.linkedin.com/in/mkz013',
+    linkedin: 'https://www.linkedin.com/in/mkz113',
     cvPath: '/Antonie-CV.pdf',
 }
