@@ -16,7 +16,7 @@
 ### Installation
 
 ```bash
-git clone https://github.com/mkz013/[ePortfolio].git
+git clone https://github.com/mkz113/[ePortfolio].git
 cd [ePortfolio]
 npm install
 ```
@@ -56,8 +56,8 @@ Color palette and spacing tokens are defined as CSS custom properties in `src/in
 ## Contact
 
 - **Email:** ochisorantonie@gmail.com
-- **GitHub:** [github.com/mkz013](https://github.com/mkz013)
-- **LinkedIn:** [linkedin.com/in/mkz013](https://www.linkedin.com/in/mkz013)
+- **GitHub:** [github.com/mkz113](https://github.com/mkz113)
+- **LinkedIn:** [linkedin.com/in/mkz113](https://www.linkedin.com/in/mkz113)
 
 ## License
 
