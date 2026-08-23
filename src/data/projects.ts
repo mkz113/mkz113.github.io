@@ -50,19 +50,17 @@ export const projects: Project[] = [
     },
     {
         id: 3,
-        title: 'iPlisse - Next.js Web Application',
+        title: 'iPlisse - Custom 2D/3D Product Configurator & E-Commerce',
         description:
-            'Full-stack web application built with Next.js, TypeScript, and Tailwind CSS, with middleware and modern application structure.',
-        techStack: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'ESLint', 'Middleware', 'Node.js'],
-        githubLink: 'https://github.com/mkz013/iplisse',
+            'Production e-commerce platform featuring an interactive 2D/3D custom pleated mosquito net configurator with real-time parametric pricing and currency conversion.',
+        techStack: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'Three.js', 'BNM API', 'i18n (RO/RU)', 'Node.js'],        githubLink: 'https://github.com/mkz013/iplisse',
         liveLink: '#',
         category: 'Web Development',
         year: '2025',
         featured: false,
         isStudentProject: true,
         details:
-            'A student project focused on modern full-stack development patterns and cleaner application structure.',
-    },
+            'Architected and delivered a full-stack startup platform for custom pleated screen systems. Built an interactive 2D/3D product configurator with strict dimension validation (min/max bounds), dynamic multi-currency pricing synced with real-time National Bank of Moldova (BNM) exchange rates, and full bilingual localization (RO/RU).',    },
     {
         id: 4,
         title: 'Network System Pentesting — Course Audit Report',
@@ -95,19 +93,17 @@ export const projects: Project[] = [
     },
     {
         id: 6,
-        title: 'Labyrinth Browser Game',
+        title: 'Labyrinth MTG Browser Game (In Refactor)',
         description:
-            'A browser-based board game built from scratch, with custom game logic, tile handling, and hand-crafted visuals.',
-        techStack: ['HTML5', 'CSS3', 'Vanilla JavaScript', 'Canvas'],
-        githubLink: 'https://github.com/mkz013/labyrinth-game',
+            'A custom 2D grid and card-interaction engine undergoing active modular refactoring from an early canvas prototype into a scalable Magic: The Gathering-inspired state machine.',        techStack: ['HTML5', 'CSS3', 'Vanilla JavaScript', 'Canvas'],
+        githubLink: 'https://github.com/mkz013/mazeBound',
         liveLink: '#',
         category: 'Web Development',
         year: '2023',
         featured: false,
         isStudentProject: true,
         details:
-            'An early project that helped build strong foundations in JavaScript, rendering, and interaction logic.',
-    },
+            'Originally prototyped as an early browser-based tile exploration game, this project is currently undergoing a ground-up architectural rebuild. Transitioning the monolithic canvas rendering logic into a decoupled TypeScript state machine with deterministic turn-based rules, stack-based phase resolution, and modular card ability systems inspired by MTG mechanics.',    },
     {
         id: 7,
         title: 'Magic: The Gathering (MTG) Blazor Suite',
