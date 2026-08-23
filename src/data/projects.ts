@@ -24,7 +24,7 @@ export const projects: Project[] = [
         description:
             'An experimental voice assistant project exploring speech-to-text, text-to-speech, wake-word ideas, and local AI interaction workflows.',
         techStack: ['Python', 'Whisper', 'Vosk', 'pyttsx3', 'PyAudio', 'JSON', 'NLP'],
-        githubLink: 'https://github.com/mkz013/Lucy',
+        githubLink: 'https://github.com/mkz113/Lucy',
         liveLink: '#',
         category: 'AI & Voice',
         year: '2025',
@@ -39,7 +39,7 @@ export const projects: Project[] = [
         description:
             'Dockerized honeypot API with ELK Stack integration, real-time logging, dashboards, and reverse proxying for malicious request analysis.',
         techStack: ['Docker', 'ELK Stack', 'Grafana', 'Python', 'Nginx', 'REST API', 'PHP'],
-        githubLink: 'https://github.com/mkz013/websecurity-honeypot',
+        githubLink: 'https://github.com/mkz113/websecurity-honeypot',
         liveLink: '#',
         category: 'Security Engineering',
         year: '2025',
@@ -53,7 +53,7 @@ export const projects: Project[] = [
         title: 'iPlisse - Custom 2D/3D Product Configurator & E-Commerce',
         description:
             'Production e-commerce platform featuring an interactive 2D/3D custom pleated mosquito net configurator with real-time parametric pricing and currency conversion.',
-        techStack: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'Three.js', 'BNM API', 'i18n (RO/RU)', 'Node.js'],        githubLink: 'https://github.com/mkz013/iplisse',
+        techStack: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'Three.js', 'BNM API', 'i18n (RO/RU)', 'Node.js'],        githubLink: 'https://github.com/mkz113/iplisse',
         liveLink: '#',
         category: 'Web Development',
         year: '2025',
@@ -67,7 +67,7 @@ export const projects: Project[] = [
         description:
             'Full technical audit of a custom, segmented network accessed via VPN, covering reconnaissance, vulnerability validation, and CVSS-based remediation guidance.',
         techStack: ['Nmap', 'Wireshark', 'Burp Suite', 'CVSS', 'Reporting', 'Network Scanning'],
-        githubLink: 'https://github.com/mkz013/NSPAudit',
+        githubLink: 'https://github.com/mkz113/NSPAudit',
         liveLink: '#',
         category: 'Penetration Testing',
         year: '2025',
@@ -82,7 +82,7 @@ export const projects: Project[] = [
         description:
             'A mobile security project focused on reverse engineering and trojanizing an Android application through Smali hook injection, payload integration, SSL pinning, root detection, and APK re-signing.',
         techStack: ['Android', 'Kotlin', 'Java', 'Smali', 'APKTool', 'Frida', 'Metasploit', 'Room DB', 'EncryptedFile'],
-        githubLink: 'https://github.com/mkz013/PokeSecurity',
+        githubLink: 'https://github.com/mkz113/PokeSecurity',
         liveLink: '#',
         category: 'Mobile Security',
         year: '2026',
@@ -96,7 +96,7 @@ export const projects: Project[] = [
         title: 'Labyrinth MTG Browser Game (In Refactor)',
         description:
             'A custom 2D grid and card-interaction engine undergoing active modular refactoring from an early canvas prototype into a scalable Magic: The Gathering-inspired state machine.',        techStack: ['HTML5', 'CSS3', 'Vanilla JavaScript', 'Canvas'],
-        githubLink: 'https://github.com/mkz013/mazeBound',
+        githubLink: 'https://github.com/mkz113/mazeBound',
         liveLink: '#',
         category: 'Web Development',
         year: '2023',
@@ -110,7 +110,7 @@ export const projects: Project[] = [
         description:
             'Interactive C# Blazor web application featuring Entity Framework Core, card filtering/search, custom collections, and session-state management.',
         techStack: ['.NET 8', 'Blazor Server', 'C#', 'Entity Framework Core', 'LINQ', 'SQL Server', 'Bootstrap'],
-        githubLink: 'https://github.com/mkz013/blazor-mtg-server',
+        githubLink: 'https://github.com/mkz113/blazor-mtg-server',
         liveLink: '#',
         category: 'Web Development',
         year: '2024',
@@ -125,7 +125,7 @@ export const projects: Project[] = [
         description:
             'A practical incident recovery project featuring malware attack simulations (AES-CBC, Base64, Wiper corruption), custom password brute-force scripts, and forensic file recovery.',
         techStack: ['Python', 'AES-128', 'SHA-256', 'Linux', 'TestDisk', 'PhotoRec', 'Forensics', 'Cryptography'],
-        githubLink: 'https://github.com/mkz013/SSM_Scripts',
+        githubLink: 'https://github.com/mkz113/SSM_Scripts',
         liveLink: '#',
         category: 'Security Engineering',
         year: '2025',
