@@ -12,9 +12,11 @@ export function Hero() {
             {/* LEFT COLUMN: Main Information */}
             <div className="max-w-3xl">
                 {/* Status Pill */}
-                <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-[var(--border-soft)] bg-[rgba(36,29,54,0.45)] px-3.5 py-2 text-[10px] uppercase tracking-[0.18em] text-[var(--text-sub)] sm:px-4 sm:text-[11px] sm:tracking-[0.22em] md:mb-6">
-                    <span className="h-2 w-2 shrink-0 rounded-full bg-[var(--accent-primary)] shadow-[0_0_8px_var(--accent-primary)]" />
-                    Open to opportunities
+                <div className="mb-5 md:mb-6">
+                    <div className="inline-flex items-center gap-2 rounded-full border border-[var(--border-soft)] bg-[rgba(36,29,54,0.45)] px-3.5 py-2 text-[10px] uppercase tracking-[0.18em] text-[var(--text-sub)] sm:px-4 sm:text-[11px] sm:tracking-[0.22em]">
+                        <span className="h-2 w-2 shrink-0 rounded-full bg-[var(--accent-primary)] shadow-[0_0_8px_var(--accent-primary)]" />
+                        Open to opportunities
+                    </div>
                 </div>
 
                 {/* Nickname & Main Heading */}
@@ -43,24 +45,25 @@ export function Hero() {
 
 
 
-                {/* MOBILE ONLY: Memoji + Badge placement */}
-                <div className="my-6 flex flex-col items-center gap-4 md:hidden">
+                {/* MOBILE ONLY: Memoji, centered under the intro */}
+                <div className="mt-8 mb-2 flex justify-center md:hidden">
                     <div className="relative flex items-center justify-center">
-                        <div className="absolute h-[160px] w-[160px] rounded-full bg-[radial-gradient(circle,rgba(166,124,255,0.18),transparent_62%)] blur-xl" />
-                        <div className="relative rounded-2xl border border-[rgba(213,193,255,0.12)] bg-[linear-gradient(180deg,rgba(44,35,70,0.74),rgba(24,18,34,0.58))] p-2.5 shadow-[var(--shadow-main)] backdrop-blur-xl">
-                            <div className="relative flex h-[140px] w-[140px] items-center justify-center">
-                                <div className="relative overflow-hidden rounded-full border border-[rgba(213,193,255,0.14)] bg-[rgba(20,15,31,0.48)] shadow-[0_10px_30px_rgba(8,5,18,0.34)]">
-                                    <img
-                                        src={memoji}
-                                        alt="Portrait illustration of Antonie Ochișor"
-                                        className="h-[110px] w-[110px] object-cover"
-                                    />
-                                </div>
+                        <div className="absolute h-[220px] w-[220px] rounded-full bg-[radial-gradient(circle,rgba(166,124,255,0.32),transparent_65%)] blur-2xl" />
+                        <div className="relative rounded-full bg-[conic-gradient(from_200deg,rgba(166,124,255,0.75),rgba(124,92,255,0.15),rgba(213,193,255,0.6),rgba(166,124,255,0.75))] p-[2px] shadow-[var(--shadow-main)]">
+                            <div className="rounded-full bg-[var(--bg-main)] p-1.5">
+                                <img
+                                    src={memoji}
+                                    alt="Portrait illustration of Antonie Ochișor"
+                                    className="h-[148px] w-[148px] rounded-full bg-[rgba(36,29,54,0.6)] object-cover"
+                                />
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div className="flex w-full max-w-[280px] items-center gap-3 rounded-xl border border-[rgba(213,193,255,0.16)] bg-[rgba(36,29,54,0.5)] p-2.5 shadow-[var(--shadow-soft)] backdrop-blur-md">
+                {/* MOBILE ONLY: Certification badge */}
+                <div className="mt-5 flex md:hidden">
+                    <div className="flex w-full items-center gap-3 rounded-xl border border-[rgba(213,193,255,0.16)] bg-[rgba(36,29,54,0.5)] p-2.5 shadow-[var(--shadow-soft)] backdrop-blur-md">
                         <img
                             src={cyberOpsBadge}
                             alt="Cisco CyberOps Associate Badge"
@@ -81,12 +84,12 @@ export function Hero() {
                 </div>
 
                 {/* Action CTAs */}
-                <div className="mt-7 flex flex-col sm:flex-row sm:flex-wrap gap-2.5 sm:mt-8 sm:gap-3 md:mt-10 md:gap-4">
+                <div className="mt-5 grid grid-cols-3 gap-2.5 sm:mt-8 sm:flex sm:flex-row sm:flex-wrap sm:gap-3 md:mt-10 md:gap-4">
                     <a
                         href={siteMeta.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-full sm:w-auto text-center rounded-xl bg-[var(--accent-primary)] px-4 py-2.5 text-sm font-medium text-[#140d22] shadow-[var(--shadow-soft)] transition hover:bg-[var(--accent-glow)] sm:px-6 sm:py-3 sm:text-base"                    >
+                        className="col-span-3 flex min-h-12 w-full items-center justify-center rounded-xl bg-[var(--accent-primary)] px-4 py-3 text-center text-base font-semibold sm:col-auto sm:block sm:min-h-0 sm:w-auto sm:py-3 sm:font-medium text-[#140d22] shadow-[var(--shadow-soft)] transition hover:bg-[var(--accent-glow)] sm:px-6 sm:py-3 sm:text-base"                    >
                         View GitHub
                     </a>
 
@@ -94,14 +97,14 @@ export function Hero() {
                         href={siteMeta.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-full sm:w-auto text-center rounded-xl border border-[var(--border-strong)] bg-[var(--bg-panel)] px-4 py-2.5 text-sm font-medium text-[var(--text-main)] transition hover:border-[var(--accent-primary)] hover:text-[var(--accent-glow)] sm:px-6 sm:py-3 sm:text-base"
+                        className="flex min-h-11 w-full items-center justify-center text-center sm:block sm:min-h-0 sm:w-auto rounded-xl border border-[var(--border-strong)] bg-[var(--bg-panel)] px-2 py-2.5 text-sm font-medium text-[var(--text-main)] transition hover:border-[var(--accent-primary)] hover:text-[var(--accent-glow)] sm:px-6 sm:py-3 sm:text-base"
                     >
                         LinkedIn
                     </a>
 
                     <a
                         href={`mailto:${siteMeta.email}`}
-                        className="w-full sm:w-auto text-center rounded-xl border border-[var(--border-strong)] bg-[var(--bg-panel)] px-4 py-2.5 text-sm font-medium text-[var(--text-main)] transition hover:border-[var(--accent-primary)] hover:text-[var(--accent-glow)] sm:px-6 sm:py-3 sm:text-base"                    >
+                        className="flex min-h-11 w-full items-center justify-center text-center sm:block sm:min-h-0 sm:w-auto rounded-xl border border-[var(--border-strong)] bg-[var(--bg-panel)] px-2 py-2.5 text-sm font-medium text-[var(--text-main)] transition hover:border-[var(--accent-primary)] hover:text-[var(--accent-glow)] sm:px-6 sm:py-3 sm:text-base"                    >
                         Contact Me
                     </a>
 
@@ -109,7 +112,7 @@ export function Hero() {
                         href={siteMeta.cvPath}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-full sm:w-auto text-center rounded-xl border border-[var(--border-soft)] px-4 py-2.5 text-sm font-medium text-[var(--text-sub)] transition hover:border-[var(--accent-primary)] hover:text-[var(--text-main)] sm:px-6 sm:py-3 sm:text-base"                    >
+                        className="flex min-h-11 w-full items-center justify-center text-center sm:block sm:min-h-0 sm:w-auto rounded-xl border border-[var(--border-soft)] px-2 py-2.5 text-sm font-medium text-[var(--text-sub)] transition hover:border-[var(--accent-primary)] hover:text-[var(--text-main)] sm:px-6 sm:py-3 sm:text-base"                    >
                         View CV
                     </a>
                 </div>
