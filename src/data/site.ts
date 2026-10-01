@@ -12,5 +12,5 @@ export const siteMeta = {
     cvPath: '/Antonie-CV.pdf',
     // GoatCounter site code (public, not a secret). Leave empty to disable analytics.
     // Sign up at goatcounter.com, pick a code, e.g. 'mkz113' -> mkz113.goatcounter.com
-    goatCounterCode: '',
+    goatCounterCode: 'mkz113',
 }
