@@ -5,6 +5,7 @@ export const siteMeta = {
     intro:
         'My work centers on offensive security and malware analysis, bridging red and blue perspectives to understand systems from both sides. I am building deeper skills in reverse engineering while staying grounded in practical engineering, web development, and IoT.',
     location: ['Brugge, Belgium', 'Chișinău, Moldova'],
+    locationSummary: 'Cybersecurity junior based in Brugge, Belgium, born in Chișinău, Moldova.',
     availability: 'Open to internships, junior opportunities, and serious technical collaboration.',
     email: 'ochisorantonie@gmail.com',
     github: 'https://github.com/mkz113',
