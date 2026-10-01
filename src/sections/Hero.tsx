@@ -21,13 +21,12 @@ export function Hero() {
 
                 {/* Nickname & Main Heading */}
                 <div className="mb-5 md:mb-6">
-                    <p className="mb-2.5 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-[var(--accent-primary)] sm:mb-3 sm:text-sm sm:tracking-[0.28em]">
-                        <span className="h-px w-6 shrink-0 bg-[var(--accent-primary)]" />
-                        {siteMeta.name} · {siteMeta.nickname}
-                    </p>
-
                     <h1 className="max-w-3xl text-[1.75rem] font-semibold leading-[1.2] tracking-[-0.02em] sm:text-4xl sm:leading-[1.15] sm:tracking-[-0.03em] md:text-5xl">
-                        {siteMeta.title}
+                        <span className="mb-2.5 flex items-center gap-3 text-xs font-medium uppercase leading-normal tracking-[0.2em] text-[var(--accent-primary)] sm:mb-3 sm:text-sm sm:tracking-[0.28em]">
+                            <span className="h-px w-6 shrink-0 bg-[var(--accent-primary)]" />
+                            {siteMeta.name} · {siteMeta.nickname}
+                        </span>
+                        <span className="block">{siteMeta.title}</span>
                     </h1>
                 </div>
 
@@ -39,7 +38,7 @@ export function Hero() {
 
                     <p className="flex items-center gap-2 text-sm leading-6 text-[var(--text-soft)] sm:text-base sm:leading-7">
                         <span className="inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent-primary)]" />
-                        {siteMeta.location.join(' • ')}
+                        {siteMeta.locationSummary}
                     </p>
                 </div>
 
