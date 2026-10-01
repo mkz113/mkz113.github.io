@@ -21,7 +21,7 @@ export function Hero() {
                 <div className="mb-5 md:mb-6">
                     <p className="mb-2.5 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-[var(--accent-primary)] sm:mb-3 sm:text-sm sm:tracking-[0.28em]">
                         <span className="h-px w-6 shrink-0 bg-[var(--accent-primary)]" />
-                        {siteMeta.nickname}
+                        {siteMeta.name} · {siteMeta.nickname}
                     </p>
 
                     <h1 className="max-w-3xl text-[1.75rem] font-semibold leading-[1.2] tracking-[-0.02em] sm:text-4xl sm:leading-[1.15] sm:tracking-[-0.03em] md:text-5xl">
